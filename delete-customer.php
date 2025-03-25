@@ -2,7 +2,7 @@
 /**
  * File: delete-customer.php
  * Description: Handles the deletion of a customer from the database.
- * Author: Florian Groot
+ * Author: Malek chrifi alaoui
  * Date Created: <2025-03-24>
  * Last Modified: <2025-03-25>
  * Notes:
