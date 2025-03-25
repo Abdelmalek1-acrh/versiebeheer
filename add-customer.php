@@ -2,7 +2,7 @@
 /**
  * File: add-customer.php
  * Description: Code for adding new customers into the database
- * Author: Florian Groot
+ * Author: Malek chrifi alaoui
  * Date Created: <2025-03-24>
  * Last Modified: <2025-03-25>
  */
