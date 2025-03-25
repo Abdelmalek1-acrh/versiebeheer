@@ -1,5 +1,18 @@
 <?php
-// view-customer.php
+/**
+ * File: view-customer.php
+ * Description: Displays detailed information about a specific customer.
+ * Author: Florian Groot
+ * Date Created: <2025-03-24>
+ * Last Modified: <2025-03-25>
+ * Notes:
+ * - Retrieves customer details based on the provided ID.
+ * - Formats timestamps for readability.
+ * - Provides options to edit or delete the customer.
+ */
+?>
+
+<?php
 require_once 'database.php';
 
 if (isset($_GET['id'])) {
@@ -8,8 +21,8 @@ if (isset($_GET['id'])) {
     try {
         $stmt = $pdo->prepare("
             SELECT *, 
-                   DATE_FORMAT(created_at, '%Y-%m-%d %H:%i:%s') as formatted_created_at,
-                   DATE_FORMAT(updated_at, '%Y-%m-%d %H:%i:%s') as formatted_updated_at
+                DATE_FORMAT(created_at, '%Y-%m-%d %H:%i:%s') as formatted_created_at,
+                DATE_FORMAT(updated_at, '%Y-%m-%d %H:%i:%s') as formatted_updated_at
             FROM customers 
             WHERE id = ?
         ");

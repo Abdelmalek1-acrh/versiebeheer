@@ -1,4 +1,13 @@
 <?php
+/**
+ * File: header.php
+ * Description: Header with navbar
+ * Author: Florian Groot
+ * Date Created: <2025-03-24>
+ * Last Modified: <2025-03-24>
+ **/
+?>
+<?php
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,4 +1,19 @@
 <?php
+/**
+ * File: index.php
+ * Description: Displays a list of customers with options to view, edit, or delete.
+ * Author: Florian Groot
+ * Date Created: <2025-03-24>
+ * Last Modified: <2025-03-25>
+ * Notes:
+ * - Retrieves all customers from the database and displays them in a table.
+ * - Provides actions to view, edit, and delete customer records.
+ * - Uses prepared statements to prevent SQL injection.
+ */
+?>
+
+
+<?php
 require_once 'config/database.php';
 include 'includes/header.php';
 

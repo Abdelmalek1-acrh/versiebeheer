@@ -1,4 +1,20 @@
 <?php
+/**
+ * File: edit-customer.php
+ * Description: Handles updating customer information in the database.
+ * Author: Florian Groot
+ * Email: floriangrootkb@gmail.com
+ * Date Created: <2025-03-24>
+ * Last Modified: <2025-03-25>
+
+ * Notes:
+ * - This script updates customer details via a POST request.
+ * - If accessed via GET with an ID, it fetches the customer details for editing.
+ * - Uses prepared statements to prevent SQL injection.
+ */
+?>
+
+<?php
 require_once 'database.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

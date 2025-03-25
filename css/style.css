@@ -1,3 +1,14 @@
+/**
+ * File: Style.css
+ * Description: This is the styling for all files
+ * Author: Florian Groot
+ * Date Created: <2025-03-24>
+ * Last Modified: <2025-03-25>
+ *
+ * Notes:
+ * - This file contains all the styles for the website
+ */
+
 :root {
     --primary-color: #2563eb;
     --primary-hover: #1d4ed8;

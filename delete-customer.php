@@ -1,4 +1,17 @@
 <?php
+/**
+ * File: delete-customer.php
+ * Description: Handles the deletion of a customer from the database.
+ * Author: Florian Groot
+ * Date Created: <2025-03-24>
+ * Last Modified: <2025-03-25>
+ * Notes:
+ * - This script processes customer deletions via POST requests.
+ * - If accessed via GET with an ID, it retrieves customer details for confirmation.
+ * - Utilizes transactions to ensure data integrity.
+ */
+?>
+<?php
 require_once 'database.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {

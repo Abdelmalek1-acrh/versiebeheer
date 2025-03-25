@@ -1,4 +1,13 @@
 <?php
+/**
+ * File: Database.php
+ * Description: Connects to the database and catches possible errors in the connection
+ * Author: Florian Groot
+ * Date Created: <2025-03-24>
+ * Last Modified: <2025-03-25>
+ **/
+?>
+<?php
 define('DB_HOST', 'localhost');
 define('DB_USER', '');
 define('DB_PASS', '');
