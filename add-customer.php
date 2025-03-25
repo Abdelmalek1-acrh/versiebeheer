@@ -5,7 +5,7 @@
  * Author: Malek chrifi alaoui
  * Date Created: <2025-03-24>
  * Last Modified: <2025-03-25>
- */
+ *//
 ?>
 <?php
 require_once 'config/database.php';
